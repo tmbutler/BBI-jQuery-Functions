@@ -28,7 +28,7 @@ Adding class="js-analytics-form" to a form will look for 3 inputs with the id's 
 
 Adding class="js-analytics-event" to an element will look for 3 data attributes (data-eventcategory, data-eventaction and data-eventlabel). Their values will be submitted as a Google Analytics event.
 
-	<a href="http://www.google.com" target="_blank" class="js-analyics-event" data-eventcategory="Link" data-eventaction="External" data-eventlabel="Google">Go to Google</a>
+	<a href="http://www.google.com" target="_blank" class="js-analytics-event" data-eventcategory="Link" data-eventaction="External" data-eventlabel="Google">Go to Google</a>
 
 
 ## Equal Heights ##

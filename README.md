@@ -72,7 +72,7 @@ Add class="js-form" to any form to validate. Adding class="js-required" makes an
 	<form method="post" action="" class="js-form">
 
 		<label><input type="text" name="text" class="js-required" placeholder="Required Field" value="" /></label>
-		<label><input type="email" name="email" class="js-required" placeholder="Email" value="" data-regex="^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$" /></label>
+		<label><input type="email" name="email" class="js-required" placeholder="Email" value="" data-regex="^.+@.+$" /></label>
 		<button type="submit">Submit</button>
 
 	</form>
